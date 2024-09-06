@@ -1,0 +1,26 @@
+$TTL 1W
+@       IN      SOA     ns1.esdsocp.esds.co.in.        root (
+                        2024040506      ; serial
+                        3H              ; refresh (3 hours)
+                        30M             ; retry (30 minutes)
+                        2W              ; expiry (2 weeks)
+                        1W )            ; minimum (1 week)
+        IN      NS      ns1.esdsocp.esds.co.in.
+;       IN      MX 10   smtp.example.com.
+ns1.esdsocp.esds.co.in.                	IN      A       172.16.106.254
+;
+bootstrap.esdsocp.esds.co.in 			IN 		A 172.16.106.247
+;
+helper.esdsocp.esds.co.in.             	IN      A       172.16.106.254
+helper.esdsocp.esds.co.in.    			IN      A       172.16.106.254
+;
+api.esdsocp.esds.co.in.       			IN      A       172.16.106.254
+api-int..esdsocp.esds.co.in.   			IN      A       172.16.106.254
+;
+master0..esdsocp.esds.co.in.   			IN      A       172.16.106.248
+master1..esdsocp.esds.co.in.   			IN      A       172.16.106.249
+master2.esdsocp.esds.co.in.   			IN      A       172.16.106.250
+;
+worker0.esdsocp.esds.co.in.   			IN      A       172.16.106.251
+worker1.esdsocp.esds.co.in.   			IN      A       172.16.106.252
+worker2.esdsocp.esds.co.in.   			IN      A       172.16.106.253

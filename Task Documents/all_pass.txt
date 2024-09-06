@@ -1,0 +1,54 @@
+	Login					Link												User Name				Password
+NCRTC VPN																					            gpYGY$U158
+R & D VPN																					            QX2Nba8uq3
+
+
+
+
+Red-Hat Support		https://access.redhat.com							    dl-devops		            KiSr8my8yRrrZpM
+					https://access.redhat.com							    Maximo.license@ncrtc.in		NcrtcMaximo@123
+
+
+NCRTC ENV	
+	TEST	https://console-openshift-console.apps.amstest01.ncrtc.co.in/	kubeadmin					GSRFg-RIaEi-HhjUL-gu9P3
+	DEV		https://console-openshift-console.apps.amsdev01.ncrtc.co.in/	kubeadmin					FvUay-a5GSS-ejmgq-zMbQ5
+	PRD		https://console-openshift-console.apps.amsprd01.ncrtc.co.in		kubeadmin					9DX6S-BaWQo-TBm6T-NFbPF
+
+Bastion-Node	
+	TEST	ssh 10.48.53.3													root						76nZwx#Z5Ja9Fd
+	DEV		ssh 10.48.53.2													root						76nZwx#Z5Ja9Fd
+	PRD		ssh 10.48.53.4 -p 5522											govadmin					supp0rt$ESDS
+
+Accenture-Backup-VM		
+	ssh 10.48.131.150 -p 5552	root	cEx$QmG8jJtCP9
+
+Mota-Data		https://idreamssupport.ncrtc.co.in							ncrtcmotadata@esds.co.in	Supp0rt$123456
+
+
+Bandhan Cluster VPN Details (BSFI)				
+VPN Name		IP				Port	User name	Password
+Forticlient		115.124.124.14	10443	devopsteam	KV2981rVUmSEXGe
+
+Bandhan VPN
+VPN					IP			Port	UserName		Password		UserName		Password
+FortiClient		115.124.106.43	10443	IDFC_Team		o1BmyWV8O4Ah	Esds_Support	Bc-$P6pQ4M8D
+
+
+CEO_CABS
+103.249.96.15		8443	esds_7593	hgsfdkjg#$%
+
+https://github.com/ceocabs/app-apis.git
+
+MiniO Object Bucket Details	
+Minio UI URL	http://103.249.96.133:9000
+UI Username		root
+UI Password		supp0rt$ESDS
+
+Jenkins	
+
+URL	http://103.249.96.133:8080/
+ceo_cabs	Ceo_Cabs@jenkins
+
+
+Username: kubeadmin
+Password: 9DX6S-BaWQo-TBm6T-NFbPF
